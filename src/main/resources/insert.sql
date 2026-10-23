@@ -37,6 +37,6 @@ INSERT INTO students (id, name, email, age, course_id) VALUES
 -- TODO 3:
 -- Uncomment this to test a foreign key error.
 -- This should fail because course_id 999 does not exist.
--- INSERT INTO students (id, name, email, age, course_id)
--- VALUES (6, 'Invalid Course Student', 'invalid@example.com', 20, 999);
+ INSERT INTO students (id, name, email, age, course_id)
+ VALUES (6, 'Invalid Course Student', 'invalid@example.com', 20, 999);
 
